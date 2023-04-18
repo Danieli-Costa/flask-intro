@@ -32,7 +32,8 @@ def say_hello():
     """Say hello and prompt for user's name."""
     # message=""
     # for msg in AWESOMENESS:
-    #   message+=f"<option value="{msg}">{msg}</option>"
+    #   message = f"<option value="+{msg}+">"+{msg}+"</option>"
+    #   message += message
     # """
     # Forexample:
     # <option value="awesome">awesome</option><option value="terrific">terrific</option>
